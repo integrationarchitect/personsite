@@ -21,6 +21,19 @@ $(window).on('load', function() {
 		var containerEl = document.querySelector('.portfolios-area');
 		var mixer = mixitup(containerEl);
 	}
+	$(".portfolio-item").on( "click", function() {
+		$(".mfp-bg").html($(this).find('.modalContent').html());
+		  
+	});
+	
+	/*$(".portfolio-item").on( "click", function() {
+		$(".modal-body").html($(this).find('.modalContent').html());
+		  
+	});
+	$('#exampleModalLong').on('shown.bs.modal', function () {
+		
+		alert($(this).find('.modalContent').html());
+	});*/
 
 });
 

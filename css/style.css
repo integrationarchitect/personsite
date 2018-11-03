@@ -670,7 +670,19 @@ ol {
 .contact-form ::placeholder {
   font-style: italic;
 }
-
+.modalContent{
+	display: none;
+}
+.modalHeader h2 !important{
+	color: white;
+}
+.modalContentMargin{
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.mfp-bg !important{
+	opacity:0.95:
+}
 /* ===========================
   Responsive
 ==============================*/
